@@ -117,7 +117,7 @@ const BPPredictionApp = ({ onBack }) => {
       const formData = new FormData();
       formData.append('video', blob, 'recording.webm');
       
-      const response = await fetch('http://127.0.0.1:5000/predict', {
+      const response = await fetch('https://bp-btin.onrender.com/predict', {
         method: 'POST',
         body: formData,
       });
