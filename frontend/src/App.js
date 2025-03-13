@@ -41,7 +41,7 @@ function App() {
               onClick={() => navigateTo('prediction')} 
               className={`flex items-center text-white px-3 py-1 rounded-md transition-all ${currentPage === 'prediction' ? 'bg-blue-700' : 'hover:bg-blue-700'}`}
             >
-              <Activity size={18} className="mr-1" /> Test BP
+              <Activity size={18} className="mr-1" /> Test MY NEW BP
             </button>
             <button 
               onClick={() => navigateTo('about')} 
