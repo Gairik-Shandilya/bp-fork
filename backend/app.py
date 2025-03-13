@@ -300,7 +300,7 @@ def predict_bp():
         os.unlink(video_path)
         
         signal_quality = assess_signal_quality(signal_variance)
-
+        print(dbp,sbp)
         return jsonify({
             'systolic': round(sbp, 1),
             'diastolic': round(dbp, 1),
