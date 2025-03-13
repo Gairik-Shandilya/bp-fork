@@ -117,7 +117,7 @@ const BPPredictionApp = ({ onBack }) => {
       const formData = new FormData();
       formData.append('video', blob, 'recording.webm');
       
-      const response = await fetch('https://bp-btin.onrender.com/predict', {
+      const response = await fetch('https://vercel.com/gairik-shandilyas-projects/bp-fork/predict', {
         method: 'POST',
         body: formData,
       });
